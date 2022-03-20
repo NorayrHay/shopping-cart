@@ -1,0 +1,41 @@
+.modal_body {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 40px;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    transform: scale(0);
+}
+
+.modal {
+    display: flex;
+    width: 400px;
+    height: 600px;
+    background-color: whitesmoke;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.modal_body.active {
+    transform: scale(1);
+}
+
+.cart_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    padding: 20px 20px;
+}
+.total_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30px;
+    width: 100%;
+}

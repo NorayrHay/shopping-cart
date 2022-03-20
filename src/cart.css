@@ -1,0 +1,21 @@
+.item_cart {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+    width: 300px;
+    height: 400px;
+    margin: 5%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.item_cart img {
+    height: 330px;
+    width: 100%;
+}
+
+.item_cart button {
+    height: 70px;
+    width: 100%;
+}
